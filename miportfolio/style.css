@@ -209,28 +209,6 @@ footer {
     50% { opacity: 0; }
 }
 
-@keyframes slide {
-    0% { margin-top: 0; }         /* C */
-    14% { margin-top: 0; }
-    
-    15% { margin-top: -1.2em; }   /* Punteros */
-    29% { margin-top: -1.2em; }
-    
-    30% { margin-top: -2.4em; }   /* Estructuras */
-    44% { margin-top: -2.4em; }
-    
-    45% { margin-top: -3.6em; }   /* HTML & CSS */
-    59% { margin-top: -3.6em; }
-    
-    60% { margin-top: -4.8em; }   /* Linux */
-    74% { margin-top: -4.8em; }
-    
-    75% { margin-top: -6.0em; }   /* SQL */
-    89% { margin-top: -6.0em; }
-    
-    90% { margin-top: -7.2em; }   /* Algoritmos */
-    100% { margin-top: 0; }       /* Vuelta al inicio */
-}
 
 /* Responsive para celular */
 @media (max-width: 600px) {

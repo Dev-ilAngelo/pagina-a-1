@@ -48,9 +48,6 @@ nav {
     color: var(--accent);
 }
 
-.cursor {
-    animation: blink 1s infinite;
-}
 
 .nav-links {
     list-style: none;
@@ -111,22 +108,7 @@ h2 {
 
 .btn:hover {
     background-color: var(--accent-hover);
-}
 
-/* Animación de Habilidades (Texto Rotativo) */
-.skills-container {
-    background-color: var(--card-bg);
-    padding: 20px;
-    border-radius: 8px;
-    border: 1px solid #222;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-mono);
-    font-size: 1.2rem;
-    height: 60px; /* Altura fija para evitar saltos */
-    overflow: hidden;
-}
 
 .skill-static {
     color: var(--text-muted);
@@ -139,7 +121,7 @@ h2 {
     overflow: hidden;
 }
 
-.scroller span {
+.span {
     display: block;
     color: var(--accent);
     animation: slide 10s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);

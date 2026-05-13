@@ -218,3 +218,9 @@ footer {
     .scroller { height: 1.2em; width: 100%; }
     .skill-static { margin-bottom: 5px; margin-right: 0; }
 }
+.skill-list p {
+    display:flex;
+    align-items:center;
+    margin-bottom:10px;
+        gap: 10px;
+}
